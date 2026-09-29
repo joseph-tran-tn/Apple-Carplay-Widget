@@ -1,0 +1,21 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserdata
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Misc
+*.swp
+*~

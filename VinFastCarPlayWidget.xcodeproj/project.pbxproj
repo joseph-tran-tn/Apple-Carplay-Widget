@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054EAA76A44A890E09C1939A /* EmbossedClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B423FCB427E7041720790B /* EmbossedClockView.swift */; };
+		0BACE5BA8A852870D8447275 /* PersonalizedCarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB57DD8A02763E3E7FB474 /* PersonalizedCarImage.swift */; };
+		17F40E5E26E2FB6A04D81E52 /* CarPersonalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E160A2855E28D514DC317F69 /* CarPersonalization.swift */; };
+		1D8755E23916591708366FCF /* PersonalizedCarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB57DD8A02763E3E7FB474 /* PersonalizedCarImage.swift */; };
+		55728CCD30D786F5D9A2A482 /* LuxSATimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE12F99E70E51C520A5D08 /* LuxSATimelineProvider.swift */; };
+		59E3165912C662CC24D0985F /* LuxSAWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC54A8ABECBD22D8B6A162B0 /* LuxSAWidgetView.swift */; };
+		80D539D52FE725419D2B844F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7FC3247E9873D6AB15EE58 /* Assets.xcassets */; };
+		8162E944C4B9442A9243A05E /* VinFastCarPlayWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EEA3F86EE4D2066C8F9793 /* VinFastCarPlayWidgetApp.swift */; };
+		9FDB6D13C8F00AB21DF1C313 /* CarPersonalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E160A2855E28D514DC317F69 /* CarPersonalization.swift */; };
+		BCB854901C8E6DF213AD5685 /* LuxSAWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E960BAC3B50726749A303 /* LuxSAWidgetBundle.swift */; };
+		CA69D64F15B5ECA5AB8B6E99 /* LuxSAWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD07AB09CFFEB070BB5F648 /* LuxSAWidget.swift */; };
+		CEDEC2B65A8498A6DC2C70E7 /* LuxSAConfigurationIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A028B400117F3A328287A6E /* LuxSAConfigurationIntent.swift */; };
+		D226BC7B2B6BC5580EA7FF0C /* LuxSAWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0B2E334A452FA9BCD5D22FC7 /* LuxSAWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D45E41217F693CE0C3B9F4D7 /* LuxSAHeroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198BE3893424248EDD2EB895 /* LuxSAHeroScene.swift */; };
+		E6AAC36345526E2891CF071E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A887C4737BC19FCE255DCC68 /* Assets.xcassets */; };
+		F03449F9B1B6667086D4DD16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31386DD085B4E4F54BCAD10 /* ContentView.swift */; };
+		F4CADE7C77436D2C79EA7B4E /* LuxSAHeroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198BE3893424248EDD2EB895 /* LuxSAHeroScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185D37FA6F7ACE74C741252A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53226A175F95F638B90EE5B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65EC953AB267E4A8617FBFA5;
+			remoteInfo = LuxSAWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F13B4E8917615005353AF239 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D226BC7B2B6BC5580EA7FF0C /* LuxSAWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B2E334A452FA9BCD5D22FC7 /* LuxSAWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LuxSAWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B423FCB427E7041720790B /* EmbossedClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbossedClockView.swift; sourceTree = "<group>"; };
+		198BE3893424248EDD2EB895 /* LuxSAHeroScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxSAHeroScene.swift; sourceTree = "<group>"; };
+		3DD07AB09CFFEB070BB5F648 /* LuxSAWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxSAWidget.swift; sourceTree = "<group>"; };
+		5A028B400117F3A328287A6E /* LuxSAConfigurationIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxSAConfigurationIntent.swift; sourceTree = "<group>"; };
+		69EEA3F86EE4D2066C8F9793 /* VinFastCarPlayWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinFastCarPlayWidgetApp.swift; sourceTree = "<group>"; };
+		867A67679D322E5ACAFABE6C /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		9B7FC3247E9873D6AB15EE58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A01C14EE507F1B6A4470FDAE /* VinFastCarPlayWidget.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = VinFastCarPlayWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A887C4737BC19FCE255DCC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC54A8ABECBD22D8B6A162B0 /* LuxSAWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxSAWidgetView.swift; sourceTree = "<group>"; };
+		D1CB57DD8A02763E3E7FB474 /* PersonalizedCarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizedCarImage.swift; sourceTree = "<group>"; };
+		DE8E960BAC3B50726749A303 /* LuxSAWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxSAWidgetBundle.swift; sourceTree = "<group>"; };
+		E160A2855E28D514DC317F69 /* CarPersonalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPersonalization.swift; sourceTree = "<group>"; };
+		F31386DD085B4E4F54BCAD10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4AE12F99E70E51C520A5D08 /* LuxSATimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxSATimelineProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		05BFBAF280BB1489C15F52E0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				867A67679D322E5ACAFABE6C /* Signing.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0BC5763193342AB6E68CB14C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E160A2855E28D514DC317F69 /* CarPersonalization.swift */,
+				198BE3893424248EDD2EB895 /* LuxSAHeroScene.swift */,
+				D1CB57DD8A02763E3E7FB474 /* PersonalizedCarImage.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4B722B9FCD9F21CE0E899D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E334A452FA9BCD5D22FC7 /* LuxSAWidgetExtension.appex */,
+				A01C14EE507F1B6A4470FDAE /* VinFastCarPlayWidget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3A2352C27013AB6CCEC95DC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9B7FC3247E9873D6AB15EE58 /* Assets.xcassets */,
+				F31386DD085B4E4F54BCAD10 /* ContentView.swift */,
+				69EEA3F86EE4D2066C8F9793 /* VinFastCarPlayWidgetApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BB3F6E1D3EAC6E8A925611D8 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				A887C4737BC19FCE255DCC68 /* Assets.xcassets */,
+				17B423FCB427E7041720790B /* EmbossedClockView.swift */,
+				5A028B400117F3A328287A6E /* LuxSAConfigurationIntent.swift */,
+				F4AE12F99E70E51C520A5D08 /* LuxSATimelineProvider.swift */,
+				3DD07AB09CFFEB070BB5F648 /* LuxSAWidget.swift */,
+				DE8E960BAC3B50726749A303 /* LuxSAWidgetBundle.swift */,
+				BC54A8ABECBD22D8B6A162B0 /* LuxSAWidgetView.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		E190E24DD611F5CB71610517 = {
+			isa = PBXGroup;
+			children = (
+				A3A2352C27013AB6CCEC95DC /* App */,
+				05BFBAF280BB1489C15F52E0 /* Config */,
+				0BC5763193342AB6E68CB14C /* Shared */,
+				BB3F6E1D3EAC6E8A925611D8 /* Widget */,
+				4B722B9FCD9F21CE0E899D1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65EC953AB267E4A8617FBFA5 /* LuxSAWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E7E0435C3BDBD82D4EDE05 /* Build configuration list for PBXNativeTarget "LuxSAWidgetExtension" */;
+			buildPhases = (
+				00C6988DD7CAE1D06FFCC603 /* Sources */,
+				B5A5A2144181DBA303CCBC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuxSAWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = LuxSAWidgetExtension;
+			productReference = 0B2E334A452FA9BCD5D22FC7 /* LuxSAWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F337A40A2CDA62E29F9BC967 /* VinFastCarPlayWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FCF63F0F3DFECEDDD06646 /* Build configuration list for PBXNativeTarget "VinFastCarPlayWidget" */;
+			buildPhases = (
+				4C72DA71834E2BCA7E2DAC84 /* Sources */,
+				E0B4516728D39D98357A4221 /* Resources */,
+				F13B4E8917615005353AF239 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D8D99FBD398EC12BB3B2F2 /* PBXTargetDependency */,
+			);
+			name = VinFastCarPlayWidget;
+			packageProductDependencies = (
+			);
+			productName = VinFastCarPlayWidget;
+			productReference = A01C14EE507F1B6A4470FDAE /* VinFastCarPlayWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53226A175F95F638B90EE5B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					65EC953AB267E4A8617FBFA5 = {
+						DevelopmentTeam = W4MV56AL6S;
+						ProvisioningStyle = Automatic;
+					};
+					F337A40A2CDA62E29F9BC967 = {
+						DevelopmentTeam = W4MV56AL6S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 33AC43D4B935D3C70458D55E /* Build configuration list for PBXProject "VinFastCarPlayWidget" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E190E24DD611F5CB71610517;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4B722B9FCD9F21CE0E899D1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F337A40A2CDA62E29F9BC967 /* VinFastCarPlayWidget */,
+				65EC953AB267E4A8617FBFA5 /* LuxSAWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5A5A2144181DBA303CCBC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AAC36345526E2891CF071E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B4516728D39D98357A4221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D539D52FE725419D2B844F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C6988DD7CAE1D06FFCC603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F40E5E26E2FB6A04D81E52 /* CarPersonalization.swift in Sources */,
+				054EAA76A44A890E09C1939A /* EmbossedClockView.swift in Sources */,
+				CEDEC2B65A8498A6DC2C70E7 /* LuxSAConfigurationIntent.swift in Sources */,
+				D45E41217F693CE0C3B9F4D7 /* LuxSAHeroScene.swift in Sources */,
+				55728CCD30D786F5D9A2A482 /* LuxSATimelineProvider.swift in Sources */,
+				CA69D64F15B5ECA5AB8B6E99 /* LuxSAWidget.swift in Sources */,
+				BCB854901C8E6DF213AD5685 /* LuxSAWidgetBundle.swift in Sources */,
+				59E3165912C662CC24D0985F /* LuxSAWidgetView.swift in Sources */,
+				0BACE5BA8A852870D8447275 /* PersonalizedCarImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C72DA71834E2BCA7E2DAC84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDB6D13C8F00AB21DF1C313 /* CarPersonalization.swift in Sources */,
+				F03449F9B1B6667086D4DD16 /* ContentView.swift in Sources */,
+				F4CADE7C77436D2C79EA7B4E /* LuxSAHeroScene.swift in Sources */,
+				1D8755E23916591708366FCF /* PersonalizedCarImage.swift in Sources */,
+				8162E944C4B9442A9243A05E /* VinFastCarPlayWidgetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3D8D99FBD398EC12BB3B2F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65EC953AB267E4A8617FBFA5 /* LuxSAWidgetExtension */;
+			targetProxy = 185D37FA6F7ACE74C741252A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2544CA820B974ADBFDE99A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/VinFastCarPlayWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinfast.carplay.widgethost;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EECC16281F582F784CA583A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/VinFastCarPlayWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinfast.carplay.widgethost;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6366C00A18741309F6635FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867A67679D322E5ACAFABE6C /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 67;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BAD1706874020F5F75C0ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867A67679D322E5ACAFABE6C /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 67;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB41C6A01BA70DFF897466E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/LuxSAWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinfast.carplay.widgethost.LuxSAWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9753506C701547575B05567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/LuxSAWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinfast.carplay.widgethost.LuxSAWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FCF63F0F3DFECEDDD06646 /* Build configuration list for PBXNativeTarget "VinFastCarPlayWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2544CA820B974ADBFDE99A1D /* Debug */,
+				4EECC16281F582F784CA583A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		33AC43D4B935D3C70458D55E /* Build configuration list for PBXProject "VinFastCarPlayWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAD1706874020F5F75C0ECC /* Debug */,
+				6366C00A18741309F6635FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		38E7E0435C3BDBD82D4EDE05 /* Build configuration list for PBXNativeTarget "LuxSAWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9753506C701547575B05567 /* Debug */,
+				AB41C6A01BA70DFF897466E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53226A175F95F638B90EE5B0 /* Project object */;
+}

@@ -1,0 +1,8 @@
+// Simulator-friendly Automatic signing (ad-hoc local identity).
+// App Groups sync app ↔ widget when Xcode embeds the entitlement with a
+// full Apple Development identity (Signing & Capabilities → App Groups).
+CODE_SIGN_STYLE = Automatic
+DEVELOPMENT_TEAM = W4MV56AL6S
+CODE_SIGN_IDENTITY[sdk=iphonesimulator*] = -
+CODE_SIGNING_REQUIRED[sdk=iphonesimulator*] = NO
+CODE_SIGNING_ALLOWED[sdk=iphonesimulator*] = YES
